@@ -1,0 +1,28 @@
+{
+    "success": {
+        "headers": {
+            "connection": "keep-alive",
+            "content-type": "application/json",
+            "date": "Sun,24 Jul 2022 22:21:12 GMT",
+            "server": "Cowboy",
+            "transfer-encoding": "chunked",
+            "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+            "via": "1.1 vegur"
+        },
+        "ClientId": 63,
+        "CategoryId": 9,
+        "body": {
+            "id": 63,
+            "nome": "Teste 2",
+            "email": "teste@em.com",
+            "categoria": {
+                "id": 9,
+                "nome": "Designer"
+            }
+        }
+    },
+
+    "error": {
+
+    }
+}

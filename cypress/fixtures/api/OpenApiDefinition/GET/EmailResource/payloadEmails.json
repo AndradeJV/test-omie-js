@@ -1,0 +1,65 @@
+{
+    "success": {
+        "id": 16,
+        "headers": {
+            "connection": "keep-alive",
+            "content-type": "application/json",
+            "date": "Sun,24 Jul 2022 22:21:12 GMT",
+            "server": "Cowboy",
+            "transfer-encoding": "chunked",
+            "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+            "via": "1.1 vegur"
+        },
+        "body": [{
+                "id": 55,
+                "nome": "sdas",
+                "email": "asdasdd@gmail.com",
+                "categoria": {
+                    "id": 3,
+                    "nome": "Advogado"
+                }
+            },
+            {
+                "id": 56,
+                "nome": "dasd",
+                "email": "a@gmail.com",
+                "categoria": {
+                    "id": 3,
+                    "nome": "Advogado"
+                }
+            }
+        ]
+    },
+
+    "error": {
+        "id": "s",
+        "headers": {
+            "connection": "keep-alive",
+            "content-type": "application/json",
+            "date": "Sun,24 Jul 2022 22:21:12 GMT",
+            "server": "Cowboy",
+            "transfer-encoding": "chunked",
+            "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+            "via": "1.1 vegur"
+        },
+        "body": [{
+                "id": 55,
+                "nome": "sdas",
+                "email": "asdasdd@gmail.com",
+                "categoria": {
+                    "id": 3,
+                    "nome": "Advogado"
+                }
+            },
+            {
+                "id": 56,
+                "nome": "dasd",
+                "email": "a@gmail.com",
+                "categoria": {
+                    "id": 3,
+                    "nome": "Advogado"
+                }
+            }
+        ]
+    }
+}

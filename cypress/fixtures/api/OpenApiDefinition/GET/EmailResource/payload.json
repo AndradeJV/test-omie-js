@@ -1,0 +1,43 @@
+{
+    "success": {
+        "id": 55,
+        "headers": {
+            "connection": "keep-alive",
+            "content-type": "application/json",
+            "date": "Sun,24 Jul 2022 22:21:12 GMT",
+            "server": "Cowboy",
+            "transfer-encoding": "chunked",
+            "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+            "via": "1.1 vegur"
+        },
+        "body": {
+            "id": 55,
+            "nome": "sdas",
+            "email": "asdasdd@gmail.com",
+            "categoria": {
+                "id": 3,
+                "nome": "Designer"
+            }
+        }
+    },
+
+    "error": {
+        "id": 16,
+        "headers": {
+            "connection": "keep-alive",
+            "content-type": "application/json",
+            "date": "Sun,24 Jul 2022 22:21:12 GMT",
+            "server": "Cowboy",
+            "transfer-encoding": "chunked",
+            "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+            "via": "1.1 vegur"
+        },
+        "body": {
+            "timestamp": "2022-07-24T22:50:40Z",
+            "status": 404,
+            "error": "Resource not found",
+            "message": "Resource not found. Id 16",
+            "path": "/emails/16"
+        }
+    }
+}

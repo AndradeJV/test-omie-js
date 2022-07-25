@@ -1,0 +1,21 @@
+{
+  "name": "omie-test-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "openTests": "cypress open",
+    "runAllTests": "cypress run",
+    "runAllTestsReport": "mochawesome-merge mochawesome-report/*.json > cypress/reports/output.json",
+    "generateReports": "marge cypress/reports/output.json --reportDir ./ --inline",
+    "finalReport": "npm run runAllTestsReport && npm run generateReports",
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "9.5.1"
+  }
+}

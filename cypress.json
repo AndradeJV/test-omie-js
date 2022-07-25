@@ -1,0 +1,13 @@
+{
+    "baseUrl": "https://teste-omie.vercel.app/clientes/listar",
+    "video": false,
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    },
+    "env": {
+        "apiOpenDefinition": "https://teste-omie-prod.herokuapp.com"
+    },
+    "viewportWidth": 1440,
+    "viewportHeight": 900
+}
